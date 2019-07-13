@@ -1,0 +1,9 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+plt.rcParams['font.sans-serif']=['SimHei']
+plt.rcParams['axes.unicode_minus']=False
+train_data=pd.read_csv(r'C:\Users\angel\Desktop\titanic\train.csv')
+train_data[:8]
+train_data.info()
+train_data.describe()
