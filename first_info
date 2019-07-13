@@ -6,4 +6,5 @@ plt.rcParams['axes.unicode_minus']=False
 train_data=pd.read_csv(r'C:\Users\angel\Desktop\titanic\train.csv')
 train_data[:8]
 train_data.info()
-train_data.describe()
+train_data.describe（）
+＃以上是导入必要包和查看数据基本信息
